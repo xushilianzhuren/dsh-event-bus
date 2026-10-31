@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Event Bus",
+    "description": "Polls registered event sources inside the Host and dispatches whitelisted argv rules without a shell, writing the ledger and failure reflux natively."
+  }
+}

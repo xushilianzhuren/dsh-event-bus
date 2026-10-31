@@ -1,0 +1,10 @@
+# 事件总线 · 插件化
+# 旧形态=事件触发器.py（根写死 <workspace>，本机不存在→总线自 10-18 起停摆）。
+# 新形态=Host 内定时轮询 + argv 白名单派发（无 shell），台账/失败回流原生写。
+- insert:
+    - id: ql-bus
+      name: 'dsh-event-bus'
+      config:
+        enabled: true
+        pollSeconds: 20
+        autoDispatch: true
